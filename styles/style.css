@@ -5,7 +5,7 @@ body{
     background: #d0d4dd;
 }
 header{
-    background: black;
+    background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(58,58,66,1) 35%, rgba(54,68,71,1) 100%);
 }
  main, footer{
     background: #eef0f6;
@@ -75,8 +75,16 @@ h1{
          color: white;
          padding-bottom: 0.5em;
          font-weight: bolder;
-         letter-spacing: 2px;
+         letter-spacing: 1px;
+         color: #b1c1c3;
+         animation: background 6s infinite alternate;
 }
+@keyframes background {
+    50% {
+        color: #70898f;
+    }
+  }
+
 .mobile, .email{
     font-size: 1.2em;
          margin: 0;
