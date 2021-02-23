@@ -25,6 +25,7 @@ p{
 }
 ul{
      list-style-type: none;
+     padding: 0.5em;
 }
 section{
     display: flex;
@@ -184,12 +185,13 @@ ul.rating {
 .experience p{
     margin: 0 2.2em;
     text-align: center;
+    padding-bottom: 1rem;
 }
 /*footer*/
 .box{
     width: 3em;
     height: 3.5em;
-    padding-right: 0.8em;
+    padding-right: 1em;
     transition: 1s;
 }
 .box:hover {
@@ -205,7 +207,7 @@ ul.rating {
 
 .contact ul{
     display: flex;
-    margin-left: 1.5em;
+    margin: 0 auto;
 }
 .contact h2{
     border: none;
