@@ -2,7 +2,9 @@ body{
     max-width:  1024px;
     margin: 0 auto;
     border: 1px solid black;
-    background: #d0d4dd;
+    background: url("../img/gory.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
 }
 header{
     background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(58,58,66,1) 35%, rgba(54,68,71,1) 100%);
@@ -52,10 +54,10 @@ header {
 }
 
 .person-photo{
-    background-image: url(../img/DSC_0257.JPG);
-    background-size: 18em;
+    /* background-image: url(../img/DSC_0257.JPG); */
+    /* background-size: 14em;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: top; */
     width: 10em;
     height: 10em;
     border: 2px solid black;
@@ -173,22 +175,31 @@ ul.rating {
     line-height: 30px;
     font-size: 1.2em;
 }
+.experience p{
+    margin: 0 2.2em;
+    text-align: center;
+}
 /*footer*/
 .box{
     width: 3em;
     height: 3.5em;
-    padding-right: 0.3em;
+    padding-right: 0.8em;
+    transition: 1s;
 }
+.box:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
 .contact{
+    background: linear-gradient(90deg, rgba(0,0,5,1) 0%, rgba(58,58,66,1) 35%, rgba(54,68,71,1) 100%);
     border-top: 1px solid;
-    background: #928b97;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .contact ul{
     display: flex;
-    margin-left: 1em;
+    margin-left: 1.5em;
 }
 .contact h2{
     border: none;
@@ -216,6 +227,9 @@ ul.rating {
     font-size: 1.2em;
     margin: 0;
     margin-left: 3em;
-    color: #453b4c;
+    color: white;
     font-weight: bolder;
+}
+nav{
+    display: flex;
 }
