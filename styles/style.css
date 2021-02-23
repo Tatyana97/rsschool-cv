@@ -175,6 +175,12 @@ ul.rating {
     line-height: 30px;
     font-size: 1.2em;
 }
+.experience .p, p.experience-block1{
+    margin: 0 2.2em;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
 .experience p{
     margin: 0 2.2em;
     text-align: center;
