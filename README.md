@@ -1,1 +1,1 @@
-[link cv](https://Tatyana97.github.io/rsschool-cv/cv)
+[link cv](https://Tatyana97.github.io/rsschool-cv/)
